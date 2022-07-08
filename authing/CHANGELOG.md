@@ -1,3 +1,7 @@
+## 1.1.8-dev.2
+
+* minor spelling improvements
+
 ## 1.1.8-dev.1
 
 * add createdAt field to User
