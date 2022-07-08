@@ -1,3 +1,11 @@
+## 1.1.8-dev.4
+
+* fix oidc auth result does not contain completed User
+
+## 1.1.8-dev.3
+
+* direct load customData from login result
+
 ## 1.1.8-dev.2
 
 * minor spelling improvements

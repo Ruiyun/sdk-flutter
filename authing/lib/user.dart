@@ -6,7 +6,7 @@ class User {
   late String phone;
   late String email;
   late String token;
-  late String createdAt;
+  String? createdAt;
   String? mfaToken;
   String? firstTimeLoginToken;
   String? accessToken;
@@ -39,6 +39,7 @@ class User {
   late String country;
 
   late List customData;
+  late Map<String, dynamic> customDataMap;
 
   static User create(Map map) {
     User user = User();
@@ -90,6 +91,7 @@ class User {
     if (map.containsKey("token")) {
       user.token = map["token"].toString();
     }
+    user.customDataMap = map["customData"] ?? {};
     user.country = map["country"].toString();
     return user;
   }
