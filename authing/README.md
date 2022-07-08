@@ -18,7 +18,7 @@ and the Flutter guide for
 in your pubspec.yaml, add the following dependency:
 
 ```yaml
-authing_sdk: ^1.0.0
+authing_sdk_odds: ^1.0.0
 ```
 
 ## SDK initialization
@@ -26,7 +26,7 @@ authing_sdk: ^1.0.0
 Upon App start, call:
 
 ```dart
-import 'package:authing_sdk/authing.dart';
+import 'package:authing_sdk_odds_odds/authing.dart';
 
 Authing.init(String userPoolId, String appId)
 ```
@@ -119,7 +119,7 @@ Contact Authing sales if you have any questions.
 for all authentication APIs, you should import:
 
 ```dart
-import 'package:authing_sdk/client.dart';
+import 'package:authing_sdk_odds_odds/client.dart';
 ```
 
 <br>

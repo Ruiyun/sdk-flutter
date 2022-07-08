@@ -1,8 +1,8 @@
-import 'package:authing_sdk/authing.dart';
-import 'package:authing_sdk/client.dart';
-import 'package:authing_sdk/oidc/auth_request.dart';
-import 'package:authing_sdk/oidc/oidc_client.dart';
-import 'package:authing_sdk/result.dart';
+import 'package:authing_sdk_odds/authing.dart';
+import 'package:authing_sdk_odds/client.dart';
+import 'package:authing_sdk_odds/oidc/auth_request.dart';
+import 'package:authing_sdk_odds/oidc/oidc_client.dart';
+import 'package:authing_sdk_odds/result.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

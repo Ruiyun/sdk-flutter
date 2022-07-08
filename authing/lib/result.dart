@@ -1,4 +1,4 @@
-import 'package:authing_sdk/oidc/auth_request.dart';
+import 'package:authing_sdk_odds/oidc/auth_request.dart';
 
 import 'user.dart';
 

@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:authing_sdk/client.dart';
-import 'package:authing_sdk/oidc/auth_request.dart';
-import 'package:authing_sdk/user.dart';
-import 'package:authing_sdk/util.dart';
+import 'package:authing_sdk_odds/client.dart';
+import 'package:authing_sdk_odds/oidc/auth_request.dart';
+import 'package:authing_sdk_odds/user.dart';
+import 'package:authing_sdk_odds/util.dart';
 
 import '../authing.dart';
 import '../result.dart';

@@ -1,3 +1,7 @@
+## 1.1.8-dev.1
+
+* add createdAt field to User
+
 ## 1.1.7
 
 * fix Initialize the sync issue

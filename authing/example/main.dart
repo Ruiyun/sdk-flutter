@@ -1,6 +1,6 @@
-import 'package:authing_sdk/authing.dart';
-import 'package:authing_sdk/client.dart';
-import 'package:authing_sdk/result.dart';
+import 'package:authing_sdk_odds/authing.dart';
+import 'package:authing_sdk_odds/client.dart';
+import 'package:authing_sdk_odds/result.dart';
 
 class MyApp {
   String pool = "pool id";

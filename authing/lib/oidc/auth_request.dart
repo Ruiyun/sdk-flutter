@@ -1,5 +1,5 @@
-import 'package:authing_sdk/authing.dart';
-import 'package:authing_sdk/util.dart';
+import 'package:authing_sdk_odds/authing.dart';
+import 'package:authing_sdk_odds/util.dart';
 
 class AuthRequest {
   late String clientId;

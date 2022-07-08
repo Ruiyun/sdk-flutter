@@ -1,4 +1,4 @@
-import 'package:authing_sdk/client.dart';
+import 'package:authing_sdk_odds/client.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class User {
@@ -6,6 +6,7 @@ class User {
   late String phone;
   late String email;
   late String token;
+  late String createdAt;
   String? mfaToken;
   String? firstTimeLoginToken;
   String? accessToken;
@@ -48,6 +49,7 @@ class User {
     user.phone = map["phone"].toString();
     user.email = map["email"].toString();
     user.token = map["token"].toString();
+    user.createdAt = map["createdAt"].toString();
     if (map.containsKey("mfaToken")) {
       user.mfaToken = map["mfaToken"].toString();
     }

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:ui' as ui;
 
-import 'package:authing_sdk/config.dart';
+import 'package:authing_sdk_odds/config.dart';
 import 'package:crypto/crypto.dart';
 import 'package:encrypt/encrypt.dart';
 import 'package:pointycastle/asymmetric/api.dart';
