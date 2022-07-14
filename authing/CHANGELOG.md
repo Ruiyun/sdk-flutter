@@ -1,3 +1,7 @@
+## 1.1.8-dev.5
+
+* merge from upstream 1.1.8
+
 ## 1.1.8-dev.4
 
 * fix oidc auth result does not contain completed User
