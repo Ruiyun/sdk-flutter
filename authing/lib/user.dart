@@ -39,7 +39,6 @@ class User {
   late String country;
 
   late List customData;
-  late Map<String, dynamic> customDataMap;
 
   static User create(Map map) {
     User user = User();
@@ -91,8 +90,8 @@ class User {
     if (map.containsKey("token")) {
       user.token = map["token"].toString();
     }
-    user.customDataMap = map["customData"] ?? {};
     user.country = map["country"].toString();
+    user.customData = [];
     return user;
   }
 
