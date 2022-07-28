@@ -1,3 +1,11 @@
+## 1.1.10
+
+* update docs
+
+## 1.1.9
+
+* bug fixes
+
 ## 1.1.8-dev.6
 
 * Fix: User.customData not initialized on updateProfile
@@ -5,6 +13,10 @@
 ## 1.1.8-dev.5
 
 * merge from upstream 1.1.8
+
+## 1.1.8
+
+* bug fixes, and new features
 
 ## 1.1.8-dev.4
 

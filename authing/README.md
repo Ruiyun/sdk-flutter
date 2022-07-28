@@ -1323,7 +1323,7 @@ static Future<AuthResult> loginByAccount(String account, String password) async
 
 ```dart
 AuthResult results = await OIDCClient.loginByAccount("your account", "your password");
-User user = result.user; // user info
+User user = results.user; // user info
 ```
 
 <br>
@@ -1382,7 +1382,7 @@ Use Access token to get user information.
 
 
 ```dart
-static Future<AuthResult> getUserInfoByAccessToken(String accessToken, [Map? data]) async 
+static Future<Result> getUserInfoByAccessToken(String accessToken, [Map? data]) async 
 ```
 
 **params**
@@ -1392,8 +1392,7 @@ static Future<AuthResult> getUserInfoByAccessToken(String accessToken, [Map? dat
 **example**
 
 ```dart
-AuthResult result = await OIDCClient.getUserInfoByAccessToken("accessToken");
-User user = result.user; // get user info
+Result result = await OIDCClient.getUserInfoByAccessToken("accessToken");
 ```
 
 <br>
